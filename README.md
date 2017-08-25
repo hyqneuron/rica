@@ -3,6 +3,9 @@
 
 Reproducing [Reconstruction ICA](http://ai.stanford.edu/~quocle/LeKarpenkoNgiamNg.pdf), without whitening.
 
+You'll need [PyTorch](http://pytorch.org). A GPU helps but instructruction is given in `main.py` about how to run it
+without a GPU. The tunable parameters are also explained in `main.py`.
+
 Just run `python main.py`. Will generate a set of weight images with different lambda values.
 
 # sample weights
